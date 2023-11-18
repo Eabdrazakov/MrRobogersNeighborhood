@@ -23,8 +23,7 @@ _This wed application created using HTML,CSS and JavaScript technologies._
 
 ## Test
 
-`Describe: firstFunction()
-
+  ##Describe: `isStringNumeric()`
   Test: "It should describe the first piece of logic for a function."
   Code:
   const example = "string";
@@ -33,9 +32,9 @@ _This wed application created using HTML,CSS and JavaScript technologies._
 
   Test: "It should describe the second piece of logic for a function."
   Code:
-  const example2 = ["data"];
+  const example2 = [data];
   firstFunction(example2);
-  Expected Output: "Expected outcome for second piece of logic"`
+  `Expected Output: "Expected outcome for second piece of logic"`
 
 
 
