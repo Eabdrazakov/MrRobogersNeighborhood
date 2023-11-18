@@ -28,6 +28,23 @@ function createNumber(number) {
 
 //UI Logic
 
+function resetForm() {
+    const form = document.getElementById("form");
+    form.reset();
+}
+
+function classHidden() {
+    document.querySelector("#error").setAttribute("class", "hidden");
+};
+
+function numberChecker(number) {
+    if (number < 0) {
+        document.querySelector("#error").removeAttribute("class");
+        return
+    }
+};
+
+
 function finalNumber(e) {
     e.preventDefault();
     classHidden();
@@ -39,3 +56,7 @@ function finalNumber(e) {
 
     resetForm();
 };
+
+window.addEventListener("load", function () {
+    document.getElementById("form").addEventListener("submit", finalNumber);
+});
