@@ -2,13 +2,13 @@
 
 <h3>By Ermek Abdrazakov</h3>
 
-<p>This is a web application of Mr. Roboger's Neighborhood. This web application generates a list of values from 0 up to a user-inputted number with unique substitutions. For any number containing 1, 2, or 3, the application replaces it with "Beep!", "Boop!", or "Won't you be my neighbor?" respectively, adding a playful twist to number sequences. Here is the [link](#mrrobogersneighborhood)
+<p>This is a web application of Mr. Roboger's Neighborhood. This web application generates a list of values from 0 up to a user-inputted number with unique substitutions. For any number containing 1, 2, or 3, the application replaces it with "Beep!", "Boop!", or "Won't you be my neighbor?" respectively, adding a playful twist to number sequences.
+_Click [here](https://github.com/Eabdrazakov/MrRobogersNeighborhood)_
 
 ## Technologies Used
-
 * _HTML_
 * _CSS_
-* _JavaScript
+* _JavaScript_
 
 ## Description
 
@@ -23,12 +23,19 @@ _This wed application created using HTML,CSS and JavaScript technologies._
 
 ## Test
 
-Describe: isStringNumeric()
-Test1: "It should return true when input string contains only number"
-Code: 
-const inputTextTest1 = "4204"
-isStringNumeric(inputTextTest1);
-Expected Output: true  
+Describe: firstFunction()
+
+  Test: "It should describe the first piece of logic for a function."
+  Code:
+  const example = "string";
+  firstFunction(example);
+  Expected Output: ["Expected outcome for first piece of logic"]
+
+  Test: "It should describe the second piece of logic for a function."
+  Code:
+  const example2 = ["data"];
+  firstFunction(example2);
+  Expected Output: "Expected outcome for second piece of logic"
 
 
 
