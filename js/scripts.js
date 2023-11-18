@@ -23,3 +23,19 @@ function createNumber(number) {
 // console.log(createNumber(number1));
 // const number2 = "5";
 // console.log(createNumber(number2));
+
+
+
+//UI Logic
+
+function finalNumber(e) {
+    e.preventDefault();
+    classHidden();
+    const input = document.getElementById("inputNumber").value;
+    const number = createNumber(input);
+    const numCheck = numberChecker(input);
+
+    document.getElementById("finalResult").innerText = number;
+
+    resetForm();
+};
