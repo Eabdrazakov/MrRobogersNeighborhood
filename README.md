@@ -28,20 +28,21 @@ _This wed application created using HTML,CSS and JavaScript technologies._
 Describe: createNumber()
 
 Test: "It should return an array of numbers from 0 to the user's inputted number"
-Code: createNumber(7);
-Expected Output: [0, 1, 2, 3, 4, 5, 6, 7]
+Code: createNumber(0);
+Expected Output: [0]
 
-Test: "It should replace numbers that contain a "1" with "Beep"
-Code: createNumber(1)
-Expected Output: [0,"Beep"]
+Test: "It should replace numbers that contain a "3" with "Won't you be my neighbor?"
+Code: createNumber(3)
+Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?]
 
 Test: "It should replace numbers that contain a "2" with "Boop"
 Code: createNumber(2)
 Expected Output: [0, "Beep", "Boop"]
 
-Test: "It should replace numbers that contain a "3" with "Won't you be my neighbor?"
-Code: createNumber(3)
-Expected Output: [0, "Beep", "Boop", "Won't you be my neighbor?]
+Test: "It should replace numbers that contain a "1" with "Beep"
+Code: createNumber(1)
+Expected Output: [0,"Beep"]
+
 
 Test: "test for Hierarchy of Substitutions. The number 12 should be replaced with "Boop!"."
 Code: createNumber(12)
